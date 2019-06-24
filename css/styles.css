@@ -1,0 +1,55 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background: #eee;
+}
+.screen{
+  background:#FFFFFF;
+  height:300px;
+  width:500px;
+  margin:0 auto;
+  margin-top:30px;
+  padding:30px;
+}
+
+.mainScreen{
+  width:100%;
+  height:200px;
+  background: #c0c0c0;
+  margin:0 auto;
+  font-size:50px;
+  text-align:center;
+  line-height:200px;
+}
+.button{
+  width:146px;
+  height:80px;
+  background: #c0c0c0;
+  float:left;
+  margin-top:30px;
+  opacity: 1;
+  text-align: center;
+  line-height:80px;
+  font-size: 25px;
+}
+.bcolor{
+  opacity:0.5;
+}
+/*.button:nth-child(-n+3){
+  margin-right:30px;
+}*/
+#start, #stop{/*修正後１*/
+  margin-right:30px;
+}
+
+
+/*.button:nth-child(4){
+  float:right;
+}*/
+/*.button:last-child {修正後１
+  float:right;
+}*/
+
+#reset{/*修正後2*/
+  float:right;
+}
